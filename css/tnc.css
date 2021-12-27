@@ -1,0 +1,80 @@
+.modal-content.nopadding{
+    padding:0;
+}
+.container{
+    z-index:0 !important;
+}
+.modal
+{
+    overflow: all;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.modal>.modal-content>.row{
+    display: inline-block;
+}
+.fw600
+{
+    font-weight: 600;
+}
+.mb0
+{
+    margin-bottom: 0;
+}
+
+.padding-10
+{
+    padding:5px;
+}
+
+.text-uppercase
+{
+    text-transform: uppercase;
+}
+.modal-wrapper
+{
+    z-index: 1005;
+    width:100vw;
+    height:100vh;
+    display:none;
+    top:0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.77)
+}
+.number-list, .number-list>li, ul:not(.browser-default)>li
+{
+    text-align: left;
+    list-style: none;
+
+}
+.number-list
+{
+    counter-reset: my-counter;
+}
+
+.number-list>li
+{
+    padding-bottom: 15px;
+
+}
+.number-list>li:before
+{
+    content: counter(my-counter)'.';
+    counter-increment: my-counter;
+    transform: translateX(-40px);
+    position: absolute;
+    margin-top: 5px;
+    font: bold 20px/1 Poppins;
+
+}
+.red-gradient
+{
+    background: linear-gradient(to right, #ff4e00,#ff0000) !important;
+    color:white;
+}
+.modal.modal-fixed-footer .modal-footer
+{
+    border-top:transparent;
+}

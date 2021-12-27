@@ -1,0 +1,524 @@
+@media @small {
+
+    .main-height {
+        min-height: unset;
+        max-height: unset;
+    }
+
+    .predection-carousel {
+        overflow: hidden;
+    }
+
+    .card-holder.second,
+    .card-holder.third {
+        left: unset;
+        // transform: unset;
+    }
+
+    .card-animation-holder {
+        display: flex;
+        justify-content: center;
+    }
+
+    .predection-button {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .predectionButtons:not(.predection-button){
+        margin: 0 auto;
+    }
+    #main-card-holder {
+        padding: 0;
+    }
+
+    .btn-yes,
+    .btn-share,
+    .btn-no {
+        width: auto;
+    }
+
+    .card-holder.second,
+    .card-holder.third {
+        filter: none;
+        // left: 0;
+        bottom: -8px;
+    }
+
+    .card-holder {
+        width: 100% !important;
+    }
+
+    .predection-topics {
+        .nav-link:not(.active) {
+            span {
+                display: none;
+            }
+        }
+
+        .nav-link {
+            width: auto !important;
+        }
+    }
+
+    #quiz {
+        height: ~"calc(100vh - 56px)";
+
+        .question {
+            font-size: 1.6rem;
+        }
+    }
+
+    //predection list ui start
+    .predection-list-container {
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .main-title {
+            // padding-bottom: 16px;
+            font-size: .95rem;
+        }
+
+        .predection {
+            margin-bottom: 25px !important;
+        }
+
+        .c-price {
+            flex: 0 0 50%;
+            max-width: 50%;
+            border-right: .05rem solid #D2DAF1;
+            // padding-bottom: 16px;
+        }
+
+        .c-profit {
+            flex: 0 0 50%;
+            max-width: 50%;
+            /*text-align: center;*/
+            // padding-bottom: 16px;
+        }
+
+
+        .p-price {
+            flex: 0 0 50%;
+            max-width: 50%;
+            border-right: .05rem solid #D2DAF1;
+        }
+
+        .status {
+            // flex: 0 0 40%;
+            // max-width: 40%;
+            // padding: 0;
+        }
+
+        .status {
+            justify-content: flex-end;
+            flex-basis: 0;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+        }
+
+        .predection.bg-blue button,
+        button {
+            min-width: unset !important;
+            border-top-right-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
+            white-space: nowrap;
+        }
+
+    }
+
+    #predection-list-main-container {
+        /*background: #EAECF4;*/
+
+        .predection:not(.bg-blue) {
+            /*background: white;*/
+            background: #E6EAF0;
+
+            .status,
+            .p-price,
+            .p-skipped {
+                background: #FF6156;
+
+                b,
+                .title {
+                    color: white;
+                }
+            }
+
+            button {
+                background: white !important;
+                color: #FF6156 !important;
+                border-radius: 7px !important;
+            }
+        }
+
+
+        .predection-list .predection:not(.bg-blue) button,
+        .predection-list .predection.bg-blue button,
+        button {
+            border-radius: 7px !important;
+        }
+
+        &.predection-list .predection .end-date {
+            color: #FF6156;
+        }
+
+        .predection-list .predection:not(.border-green) {
+
+            .status,
+            .p-price,
+            .p-skipped {
+                padding-top: 8px;
+                padding-bottom: 8px;
+                margin-top: 15px;
+            }
+
+            .p-price,
+            .p-skipped {
+                margin-left: 10px;
+                border-bottom-left-radius: .45rem;
+                border-top-left-radius: .45rem;
+                border-right: 0;
+            }
+
+            .status {
+                border-bottom-right-radius: .45rem;
+                border-top-right-radius: .45rem;
+            }
+        }
+
+
+        .predection.border-green {
+
+            .p-skipped,
+            .p-price,
+            .status {
+                background: white !important;
+                padding-top: 16px;
+            }
+
+            .p-skipped .title,
+            .p-price b,
+            .p-price .title {
+                color: #76777A;
+            }
+
+            .status {
+                margin-right: 0;
+                justify-content: flex-end;
+
+                button {
+                    background: #e7f9e2 !important;
+                    color: #5bd53f !important;
+                    border-top-left-radius: 16px !important;
+                    border-top-right-radius: 0 !important;
+                    border-bottom-right-radius: 0 !important;
+                    border-bottom-left-radius: 16px !important;
+                }
+            }
+        }
+
+        .predection.bg-blue {
+
+            .status,
+            .p-skipped {
+                background: #4C6AC6;
+            }
+        }
+
+    }
+
+
+    //predection list ui end
+
+    // home page css start
+    #topic-holder {
+        background-image: url(../img/mbbanner.png);
+        min-height: 100%;
+        padding-bottom: 31px;
+        background-position: bottom center;
+
+        .title {
+            font-size: 1.3rem;
+        }
+
+        .webkit-box {
+            display: block;
+        }
+
+        .topic-holder {
+            max-width: 100%;
+            flex-wrap: wrap;
+
+
+            .topic-container:nth-child(2) {
+                margin-top: 0 !important;
+            }
+
+            .topic-container:nth-child(3),
+            .topic-container:nth-child(4) {
+                /*display: none;*/
+                margin-top: unset;
+            }
+
+            .topic-container {
+                max-width: 47%;
+                padding: 0;
+
+                &:nth-child(odd) {
+                    margin-right: 8px;
+                }
+
+                &:nth-child(even) {
+                    margin-left: 8px;
+                }
+            }
+
+            .topic {
+                margin-right: 0 !important;
+                width: 100%;
+                border-radius: 12px;
+                min-height: 188px;
+
+                h6 {
+                    -webkit-line-clamp: 2;
+                }
+
+                img {
+                    height: 123px;
+                }
+            }
+
+            .topic img {
+                width: 100%;
+                // height: 94px;
+            }
+        }
+    }
+
+    .p-title {
+        color: #4D4E50;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        margin-bottom: 17px;
+    }
+
+    #mobile_quiz {
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #4D4E50;
+            margin-bottom: 17px;
+            text-transform: uppercase;
+        }
+    }
+
+    #home-blogs .p-title{
+        font-size: 1.1rem;
+    }
+    #home-blogs.blog-list {
+        &:nth-child(odd) {
+            display: none !important;
+        }
+    }
+
+    // home page css end
+
+    // topic list start
+    #topic_list_page {
+        // .topic-holder {
+        //     justify-content: space-evenly;
+        // }
+
+        .topic-holder {
+            justify-content: center;
+        }
+
+        .topic-holder.topics-list {
+            .topic {
+                width: 106px;
+
+                img {
+                    width: 100%;
+                    height: 119px;
+                }
+
+                h6 {
+                    -webkit-line-clamp: 2;
+                }
+            }
+        }
+    }
+
+    // topic list end
+
+    #topic_list_page .topic-holder.topics-list .topic {
+        width: 46%;
+    }
+
+    #topic_list_page .topic-holder .topic img {
+        width: 100%
+    }
+
+
+    //header start
+
+    .navbar .profile-info {
+        position: absolute;
+        top: 4px;
+        right: 0;
+        transform: scale(.8);
+    }
+
+    .navbar {
+        min-height: 59px;
+    }
+
+    .subscription-plan-container {
+        background-color: #3f3d56;
+        background-image: unset;
+
+        .subs-blue-bg {
+            background: none;
+        }
+    }
+
+    #games-container {
+        .title {
+            font-size: 1.2rem;
+        }
+
+        .prediction-card {
+            .card-body {
+                padding: 20px 10px;
+            }
+
+            .title {
+                font-size: 1rem;
+            }
+        }
+    }
+
+
+    #predection-row {
+        .prediction-card {
+            .banner-img {
+                border-radius: 18px;
+            }
+
+        }
+
+    }
+
+    #instruction {
+        .game-end {
+            font-size: .9rem;
+            width: 100%;
+            border-radius: 0 !important;
+        }
+    }
+
+    #predection-container {
+        .profile-info {
+            width: 100%;
+        }
+
+    }
+
+    .mobilegameend {
+        padding: 0;
+
+        .bg-light-blue {
+            width: 100%;
+            font-size: .78rem;
+            border-radius: 0 !important;
+        }
+    }
+
+    #predection-game-container {
+        .p-title {
+            font-size: 1.1rem;
+        }
+    }
+
+    #predection-list-main-container {
+        .predection-list {
+            .predection.bg-blue {
+
+                .c-price,
+                .c-profit {
+                    .title {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+
+    #abtpage {
+        .title {
+            font-size: 1.1rem;
+        }
+
+        .event-list {
+            background: #EFF3FA;
+            padding-top: 35px;
+            padding-bottom: 35px;
+
+            .title {
+                margin-top: 35px;
+            }
+        }
+
+        #video iframe,
+        #video .title {
+            width: 100%;
+        }
+
+        .profile-image {
+            border-radius: 20px;
+        }
+
+        .testimonila-card {
+            margin: 0;
+        }
+    }
+
+    #quiz_state{
+        background-color: white;
+        .trophyimg{
+            min-height: 250px;
+            margin: 18px 0;
+        }
+        .title{
+            margin-bottom: 35px;
+        }
+        .btn-quiz-share {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        .profile_info{
+            text-align: center;
+            padding: 0 50px;
+            .title{
+                color: #A1A6AE;
+                font-weight: 400;
+            }
+            h4.text-dark{
+                font-size: 1.35rem;
+            }
+        }
+    }
+
+
+}
+
+
+
+
+//header end

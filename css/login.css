@@ -1,0 +1,226 @@
+html,
+body,
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: #fff;
+    overflow: hidden;
+    /*        background: red;*/
+    /*	 For browsers that do not support gradients 
+            background: -webkit-linear-gradient(#1f4596, #009cff);
+             For Safari 5.1 to 6.0 
+            background: -o-linear-gradient(#1f4596, #009cff);
+             For Opera 11.1 to 12.0 
+            background: -moz-linear-gradient(#1f4596, #009cff);
+             For Firefox 3.6 to 15 
+            background: linear-gradient(#1f4596, #009cff);
+             Standard syntax (must be last) */
+    /*	 For browsers that do not support gradients*/
+    background: -webkit-linear-gradient(#002590,#3bc2c8 80%,#dbf7c7 100%);
+    /*         For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#002590,#3bc2c8 80%,#dbf7c7 100%);
+    /*        For Opera 11.1 to 12.0*/
+    background: -moz-linear-gradient(#002590,#3bc2c8 80%,#dbf7c7 100%);
+    /*        For Firefox 3.6 to 15*/
+    background: linear-gradient(#002590,#3bc2c8 80%,#dbf7c7 100%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    position:relative;
+    z-index:1000;
+    justify-content: center;
+}
+
+.mydiv {
+    /* width: 80px; */
+}
+
+.hometext {
+    font-weight: 300;
+    /*	margin: 15% 0%;*/
+    margin: 6% 0%;
+}
+
+.socal-login {
+    padding-left: 45px;
+    padding-right: 45px;
+    font-weight: bold !important;
+    /*	background-color: transparent;*/
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid #ffffff;
+    margin-bottom: 10px;
+    height: 45px;
+    line-height: 45px;
+    /*	width: 80%;*/
+}
+.loginbtntext{
+    color:#29a2bd;
+}
+.socal-login:hover,
+.socal-login:focus,
+.socal-login:active {
+    background-color: transparent;
+}
+
+.text-center {
+    text-align: center
+}
+.m-l-20{
+    margin-left: 20px;
+}
+.m-l-50 {
+    margin-left: 50px;
+}
+
+.social-icon {
+    position: absolute;
+    /*left: 20%;*/
+    left: 25%;
+    font-size: xx-large;
+}
+
+.firstimg {
+    /*display: none;*/
+    position: absolute;
+    top: 5%;
+    left: 1%;
+}
+
+.secondimg {
+    position: absolute;
+    bottom: 0%;
+    left: 2%;
+}
+.co-logo{
+    width:200px;
+}
+.thirdimg {
+    position: absolute;
+    right: -3%;
+    bottom: 0;
+}
+
+.forthimg {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.animated1 {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+
+.social-icon:before {
+    font-size: xx-large;
+}
+
+.disclaimer {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 3%;
+}
+.fs17px{
+    font-size: 17px;
+}
+.fs16px{
+    font-size: 16px;
+}
+.googleimg{
+    width: 30px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+/* XS Portrait */
+
+@media only screen and (max-width: 480px) {
+    .hometext {
+        font-weight: 300;
+        /*	margin: 15% 0%;*/
+        margin: 13% 0%;
+    }
+    img.w-90 {
+        width: 60%;
+    }
+    .thirdimg,
+    .forthimg {
+        text-align: right;
+    }
+    img.co-logo {
+        width: 160px;
+    }
+    h4.hometext {
+        font-size: 18px;
+    }
+    h5.hometext{
+        font-size: 19px;    
+    }
+    .socal-login {
+        padding: 0 8px;
+    }
+    .social-icon {
+        left: inherit;
+    }
+    .thirdimg img,
+    .secondimg img {
+        width: 45%;
+    }
+    .thirdimg {
+        right: 0;
+    }
+    .disclaimer {
+        bottom: 7%;
+    }
+}
+
+/* md */
+
+@media only screen and (min-width: 481px) and (max-width: 992px) {
+    /* Make Navigation Toggle on Desktop Hover */
+    img.w-90 {
+        width: 65%;
+    }
+    .thirdimg,
+    .forthimg {
+        text-align: right;
+    }
+    h4.hometext {
+        font-size: 25px;
+    }
+    .socal-login {
+        padding: 0 22px;
+    }
+    .social-icon {
+        left: inherit;
+    }
+    .thirdimg img,
+    .secondimg img {
+        width: 55%;
+    }
+    .thirdimg {
+        right: -10%;
+    }
+    .disclaimer {
+        bottom: 15%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .socal-login {
+        /*width: 75%;*/
+        width: 45%;
+    }
+}

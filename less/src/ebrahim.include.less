@@ -1,0 +1,58 @@
+
+.login-cont
+{
+    background:@white;
+    @media @small {
+        background: rgba(0,0,0,.51);
+        color: @white;
+    }
+}
+
+
+.login-imgs {
+    position:absolute;
+    top:0;
+    
+    left:0;
+    width:100%;
+    height:100%;
+    //animation: loginbg 14s linear infinite alternate;
+    //-ms-animation: loginbg 14s linear infinite alternate;
+    //-moz-animation: loginbg 14s linear infinite alternate;
+    //-webkit-animation: loginbg 14s linear infinite alternate;
+    overflow: hidden;
+    img{
+        position:absolute;
+        top:0;
+        height:100%;
+        left:0;
+        transform:scale(1) translate(0,0);
+        &.l1{
+            animation: loginbg 30s linear 2;
+            -ms-animation: loginbg 30s linear 2;
+            -moz-animation: loginbg 30s linear 2;
+            -webkit-animation: loginbg 30s linear 2;
+        }
+        &.l2{
+            animation: loginbg 30s linear 2;
+            -ms-animation: loginbg 30s linear 2;
+            -moz-animation: loginbg 30s linear 2;
+            -webkit-animation: loginbg 30s linear 2;
+            animation-delay: 28s;
+        }
+        &.l3{
+            animation: loginbg 30s linear 2;
+            -ms-animation: loginbg 30s linear 2;
+            -moz-animation: loginbg 30s linear 2;
+            -webkit-animation: loginbg 30s linear 2;
+            animation-delay: 56s;
+        }
+        &.l4{
+            animation: loginbg 30s linear 2;
+            -ms-animation: loginbg 30s linear 2;
+            -moz-animation: loginbg 30s linear 2;
+            -webkit-animation: loginbg 30s linear 2;
+            animation-delay: 84s;
+        }
+    }
+}

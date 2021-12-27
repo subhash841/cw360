@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="185" height="66" viewBox="0 0 185 66">
+  <defs>
+    <filter id="Rectangle_579" x="0" y="0" width="185" height="66" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Android_4" data-name="Android 4" transform="translate(-643 -268)">
+    <g transform="matrix(1, 0, 0, 1, 643, 268)" filter="url(#Rectangle_579)">
+      <rect id="Rectangle_579-2" data-name="Rectangle 579" width="173" height="54" rx="14" transform="translate(6 3)" fill="#fff"/>
+    </g>
+    <g id="Group_4041" data-name="Group 4041" transform="translate(-1075.782 -4631)">
+      <g id="Group_4036" data-name="Group 4036" transform="translate(1575 4001)">
+        <text id="DOWNLOAD_Our" data-name="DOWNLOAD Our" transform="translate(240 921)" fill="#2f56c9" font-size="10" font-family="Poppins-Regular, Poppins"><tspan x="-35.63" y="0">Download Our</tspan></text>
+        <text id="ANDRoid_App" data-name="ANDRoid App" transform="translate(255 942)" fill="#2f56c9" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="-50.544" y="0">Android App</tspan></text>
+      </g>
+      <g id="android" transform="translate(1709.778 4914.897)">
+        <path id="Path_24513" data-name="Path 24513" d="M33.892,192.007A1.889,1.889,0,0,0,32,193.9v7.553a1.888,1.888,0,1,0,3.777,0V193.9A1.889,1.889,0,0,0,33.892,192.007Z" transform="translate(0 -180.677)" fill="#8bc34a"/>
+        <path id="Path_24514" data-name="Path 24514" d="M417.892,192.007A1.889,1.889,0,0,0,416,193.9v7.553a1.888,1.888,0,1,0,3.777,0V193.9A1.889,1.889,0,0,0,417.892,192.007Z" transform="translate(-361.341 -180.677)" fill="#8bc34a"/>
+        <path id="Path_24515" data-name="Path 24515" d="M128,205.193a1.889,1.889,0,0,0,1.888,1.888v3.667a1.888,1.888,0,1,0,3.777,0v-3.667h3.777v3.667a1.888,1.888,0,1,0,3.777,0v-3.667a1.889,1.889,0,0,0,1.888-1.888v-11.33H128Z" transform="translate(-90.335 -182.423)" fill="#8bc34a"/>
+        <path id="Path_24516" data-name="Path 24516" d="M140.27,3.582l1.681-2.037A.944.944,0,0,0,140.5.342l-1.837,2.226a7.386,7.386,0,0,0-6.239.023L130.631.355a.944.944,0,1,0-1.475,1.18l1.658,2.073A7.5,7.5,0,0,0,128,9.442H143.11A7.506,7.506,0,0,0,140.27,3.582Zm-6.6,3.027a.944.944,0,1,1,.944-.944A.944.944,0,0,1,133.669,6.609Zm3.777,0a.944.944,0,1,1,.944-.944A.944.944,0,0,1,137.445,6.609Z" transform="translate(-90.335 0)" fill="#8bc34a"/>
+      </g>
+    </g>
+  </g>
+</svg>

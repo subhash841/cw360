@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="186" viewBox="0 0 375 186">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2188" data-name="Rectangle 2188" width="375" height="186" transform="translate(-75.5 -0.232)" fill="#1f46b8"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.867" y1="0.805" x2="0.141" y2="0.164" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2b55cf"/>
+      <stop offset="1" stop-color="#0a2980"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.134" y1="0.165" x2="0.865" y2="0.84" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_2994" data-name="Group 2994" transform="translate(-991 -65)">
+    <rect id="Rectangle_2187" data-name="Rectangle 2187" width="375" height="186" transform="translate(991 65)" fill="#1f46b8"/>
+    <g id="Mask_Group_1802" data-name="Mask Group 1802" transform="translate(1066.5 65.232)" clip-path="url(#clip-path)">
+      <ellipse id="Ellipse_304" data-name="Ellipse 304" cx="302" cy="289.5" rx="302" ry="289.5" transform="translate(-289.5 -380.232)" opacity="0.5" fill="url(#linear-gradient)"/>
+      <path id="Path_9438" data-name="Path 9438" d="M300.985,0C467.214,0,601.969,129.573,601.969,289.408S467.214,578.817,300.985,578.817,0,449.244,0,289.408,134.755,0,300.985,0Z" transform="translate(-288.104 -12.226)" opacity="0.5" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

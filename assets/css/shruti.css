@@ -1,0 +1,175 @@
+.bg-blue-img {
+  background-image: url('../img/rank.png');
+  color: #ffffff;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-blue-img img {
+  height: 19px;
+  width: 19px;
+  margin-bottom: 8px;
+  margin-right: 0;
+}
+.bg-blue-img span {
+  font-size: 20px;
+}
+.bg-blue-img-big {
+  background-image: url('../img/basket.png');
+  color: #ffffff;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-blue-img-big img {
+  /*    height: 19px;
+    width: 19px;*/
+  margin-bottom: 6px;
+  /*margin-right: 0;*/
+}
+.bg-blue-img-big span {
+  font-size: 20px;
+}
+.bg-blue-img-big small {
+  font-size: 11px;
+}
+.rankall.active {
+  background: #2D56D0;
+}
+.rankall {
+  /*padding: .5rem 1.5rem;*/
+  padding: 0.8rem 1.5rem 0 1.5rem;
+  display: flex;
+  background: #1F46B8;
+  color: #ffffff;
+  align-items: center;
+}
+.rankall.first {
+  border-radius: 15px 15px 0 0;
+}
+.rankall.last {
+  border-radius: 0 0 15px 15px;
+}
+.rankall .innerdiv {
+  border-bottom: 1px solid #294fbb;
+  line-height: 1;
+  padding-bottom: 0.8rem;
+}
+.rankall.first .innerdiv,
+.rankall.last .innerdiv {
+  border-bottom: none;
+}
+.rankall .profilepic {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.rankall div {
+  display: flex;
+  align-items: center;
+}
+.rankall small {
+  font-size: 12px;
+  /*letter-spacing: -0.14px;*/
+  font-weight: 100;
+}
+.w-15 {
+  width: 15%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-70 {
+  width: 70%;
+}
+.btn-orange-fill {
+  /*    background: #FF5B50;
+    border-radius: 25px;
+    color: rgba(255, 255, 255, .88);
+    font-size: 12px;
+    padding: .375rem 1rem;*/
+  background: #FF5B50;
+  border-radius: 25px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 10px;
+  padding: 0.2rem .98rem;
+  font-weight: 300;
+  letter-spacing: 0.64px;
+}
+.btn-lightblue-fill {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 10px;
+  padding: 0.2rem .7rem;
+  font-weight: 300;
+  letter-spacing: 0.64px;
+  /*opacity: 0.2;*/
+}
+.text-blue {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  letter-spacing: 0 !important;
+}
+.text-green {
+  color: rgba(153, 216, 21, 0.88);
+  font-size: 12px;
+  letter-spacing: 0 !important;
+}
+.text-whites {
+  color: rgba(255, 255, 255, 0.88);
+  letter-spacing: 0 !important;
+}
+.rankall .num {
+  opacity: .6;
+  font-weight: 400;
+}
+.rankall.active .num {
+  opacity: 1;
+  font-weight: 300;
+}
+.pb {
+  padding-bottom: 0.8rem;
+}
+.listall {
+  margin: 0 auto;
+  background: #1F46B8;
+  border-radius: 15px;
+  color: #ffffff;
+}
+.listall .row {
+  padding: 15px 7px 10px 7px;
+}
+.listall .titel {
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 1;
+}
+.listall small {
+  font-size: 10px;
+  font-weight: 300;
+  opacity: .6;
+  text-transform: capitalize;
+}
+.d-end {
+  display: flex;
+  align-items: flex-end;
+}
+.wh-16 {
+  width: 16px;
+  height: 16px;
+  margin-bottom: 4px;
+}
+.listall hr {
+  border-top: 1px solid #EAF0F4;
+  opacity: 0.2;
+}
+.btnpd {
+  padding: 0.2rem 1.32rem;
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.125" height="21" viewBox="0 0 27.125 21">
+  <g id="Group_3863" data-name="Group 3863" transform="translate(-2289 -1600)">
+    <g id="Rectangle_2472" data-name="Rectangle 2472" transform="translate(2289 1600)" fill="none" stroke="#a8a8a8" stroke-width="1.5">
+      <rect width="27.125" height="21" rx="4" stroke="none"/>
+      <rect x="0.75" y="0.75" width="25.625" height="19.5" rx="3.25" fill="none"/>
+    </g>
+    <g id="Rectangle_2473" data-name="Rectangle 2473" transform="translate(2292.5 1604.375)" fill="none" stroke="#a8a8a8" stroke-width="1.5">
+      <rect width="7" height="7" rx="2" stroke="none"/>
+      <rect x="0.75" y="0.75" width="5.5" height="5.5" rx="1.25" fill="none"/>
+    </g>
+    <g id="Rectangle_2476" data-name="Rectangle 2476" transform="translate(2292.5 1612.25)" fill="none" stroke="#a8a8a8" stroke-width="1.5">
+      <rect width="7" height="5.25" rx="2" stroke="none"/>
+      <rect x="0.75" y="0.75" width="5.5" height="3.75" rx="1.25" fill="none"/>
+    </g>
+    <path id="Path_24408" data-name="Path 24408" d="M2302.858,1603h10.449" transform="translate(-1.171 2.688)" fill="#2f2f2f" stroke="#a8a8a8" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Path_24409" data-name="Path 24409" d="M2302.858,1603h10.449" transform="translate(-1.171 6.188)" fill="#2f2f2f" stroke="#a8a8a8" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Path_24410" data-name="Path 24410" d="M2302.858,1603h10.449" transform="translate(-1.171 9.687)" fill="#2f2f2f" stroke="#a8a8a8" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Path_24411" data-name="Path 24411" d="M2302.858,1603h10.449" transform="translate(-1.171 13.188)" fill="#2f2f2f" stroke="#a8a8a8" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

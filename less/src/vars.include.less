@@ -1,0 +1,56 @@
+
+@black:#000;
+@white:#fff;
+@lg:   ~" (min-width: 993px)";
+@mid:   ~" (max-width: 992px)";
+@small: ~" (max-width: 767px)";
+@text-color:#393c42;
+@primary-color: #1ca4fc;
+@body-blue:#f0f8fa;
+@body-light:#e9ecef;
+@poll-active:#7ccaf8;
+
+.keyframes(@name, @arguments) {
+    @-moz-keyframes @name { @arguments(); };
+    @-webkit-keyframes @name { @arguments(); };
+    @keyframes @name { @arguments(); };
+}
+.animation(@arguments) {
+    -webkit-animation: @arguments;
+    -moz-animation: @arguments;
+    animation: @arguments;
+}
+
+.keyframes(slide-down,{
+    0% { transform: translateY(0%); }
+    40% { transform: translateY(30%); }
+    60% { transform: translateY(40%); }
+    100% { transform: translateY(70%); }
+});
+
+
+.keyframes(rotatx,{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+});
+
+.keyframes(loginbg,{
+    2%{
+        opacity:0.5;
+    }
+    4%{
+        opacity:1;
+        transform:scale(1) translate(0,0);
+    }
+    90%{
+        opacity:1;
+    }
+    95%{
+        opacity:0.5;
+    }
+    100% { 
+        opacity:0;
+        transform:scale(1.6) translate(-20%,-20%);
+    }
+});
+
